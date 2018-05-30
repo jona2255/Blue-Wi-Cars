@@ -4,21 +4,16 @@
 		<meta charset="UTF-8">
 		<title>ArduiCar</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
-
-		<div id="navbar">
-		 <a href="#project">Nuestro proyecto</a>
-		 <a href="#how">Como se ha hecho</a>
-		 <a href="#what">¿Que és Arduino?</a>
-		 <a href="#compare">Comparativa entre modelos</a>
-		 <a href="#galery">Galería</a>
-		</div>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
 
 	</head>
 
-	<header><h1>Nuestro proyecto</h1></header>
-
 
 	<body>
+
+		<id w3-include-html="navbar.html"></id>
+		<header><h1>Nuestro proyecto</h1></header>
+
 		<div id="content-wrapper">
 
 	        <section>
@@ -83,8 +78,16 @@
 
 			 	<script src="sticky.js"></script>
 		</div>
-	</body>
+
+
 
 		 <footer><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</footer>
+
+		 <script>
+		 w3.includeHTML();
+		 </script>
+		 <script src="sticky.js"></script>
+
+</body>
 
 </html>
