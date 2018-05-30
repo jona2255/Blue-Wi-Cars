@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>ArduiCar</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+		<div id="navbar">
+		 <a href="#project">Nuestro proyecto</a>
+		 <a href="#how">Como se ha hecho</a>
+		 <a href="#what">¿Que és Arduino?</a>
+		 <a href="#compare">Comparativa entre modelos</a>
+		 <a href="#galery">Galería</a>
+		</div>
+
+	</head>
+
+	<header><h1>Nuestro proyecto</h1></header>
+
+
+	<body>
+		<div id="content-wrapper">
+
+	        <section>
+
+						<!-- <div id="left-column">
+
+							<p>Esto es una columna a la izquierda.</p>
+
+						</div> -->
+
+	         <div id="content">
+
+							<div class="text-block">
+
+								<p>Nuestro proyecto de crédito de síntesis son dos coches teledirigidos, uno con Arduino y el otro sin el Arduino, y los controlamos mediante una aplicación específica para cada coche que nosotros mismo hemos creado.</p>
+								<p>Para el coche controlado con Arduino, utilizamos Wi-Fi y Bluetooth. La señal enviada mediante Wi-Fi o Bluetooth va a la placa del Arduino, la cual se encarga de procesar la señal y enviar la instrucción al controlador del motor para realizar la acción que le hemos ordenado.</p>
+								<p>Para el coche que no tiene Arduino, hemos utilizado solo un módulo Wi-Fi con Arduino integrado el cual manda directamente la señal al controlador de los motores.</p>
+								<p>Las piezas del robot están montadas sobre un chasis que consideramos adecuado, por calidad y precio, para nuestro propósito. Nuestras aplicaciones para controlar los coches solamente están disponible para dispositivos Android.</p>
+
+								<p>Nuestro objetivo con este proyecto es el de introducirnos y aprender sobre el manejo de Arduino y también nos da la posibilidad de crear una aplicación para móviles.</p>
+
+								<ul>
+										<li>Montar un robot que se controle por control remoto.</li><br>
+
+								  	<li>Crear una aplicación para android con la que controlar el robot.</li><br>
+
+										<li>Hacer que el dispositivo se conecte mediante Wi-Fi y Bluetooth al robot.</li><br>
+
+										<li>Comparar el rendimiento, como funcionan y su precio total para saber qué opción es más rentable.</li>
+							</ul>
+
+						</div>
+
+						<div class="text-block">
+
+							<p>Para este proyecto nos ha hecho falta tanto software como hardware específico para poder montar ambos coches y hacerlos funcionar, al hacer falta instalar librerias para el módulo Wi-Fi en el software de Arduino hemos tenido que utilizar una maquina virtual con una versión más actual.</p>
+							<p>En cuanto al software utilizado, ha sido más bién poco, hemos usado una maquina virtual con Ubuntu 16.04 Desktop en la que hemos instalado Arduino, una vez teniamos listo Arduino buscamos las librerias que nos hacían falta para el módulo Wi-Fi ESP8266.</p>
+							<p>Por otro lado, hemos utilizado una variedad de hardware para hacer funcionar ambos robots, cada robot consta de almenos un chasis, dos motores y tres ruedas, a esto hay que sumarle el controlador de los motores y los módulos necesarios.</p>
+
+
+						</div>
+
+						<div class="text-block">
+
+							<p>También nos hemos visto en la necesidad de crear nuestro propio software, en este caso ha sido la aplicación para controlar los robots, desde esta aplicación se pueden controlar ambos ya que está hecha para funcionar tanto por Wi-Fi como por Bluetooth.</p>
+							<p>El único límite que tiene nuestra aplicación es que necesita estar configurada de igual manera que robot que vamos a controlar, de lo contrario se enviaría un dato que no está declarado en el código del robot y no podria ser interpretado.</p>
+
+						</div>
+
+					</div>
+
+						<!-- <div id="right-column">
+
+							<p>Esto es una columna a la derecha.</p>
+
+						</div> -->
+
+	          <div class="clearfix"></div>
+
+        </section>
+
+
+			 	<script src="sticky.js"></script>
+		</div>
+	</body>
+
+		 <footer><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</footer>
+
+</html>
