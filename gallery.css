@@ -18,6 +18,17 @@ header {
 }
 
 
+.text-block{
+  text-align: justify;
+  background-color: lightgrey;
+  color: black;
+  width: 70%;
+  padding: 2%;
+  margin-left: 15%;
+  margin-bottom: 1em;
+}
+
+
 footer {
       background-color: DodgerBlue;
       color: white;
@@ -27,18 +38,20 @@ footer {
       margin: 1%;
 }
 
-#big-img {
+.big-img{
+  display: inline-block;
+  text-align: center;
 
+#big-img {
 
 
 }
 
 .little-img {
-  background-color: white;
-  padding: 2%;
-  height: 20em;
-  width: 20em;
-  margin: 5%;
+
+  padding-left: 1.4em;
+  display: inline-block;
+  text-align: center;
 
 
 }
